@@ -1,0 +1,16 @@
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Coustomer id</th>
+    <th>Backend Updated </th>
+  </tr>
+  <tr  *ngFor="let user of UserList.data">
+    <td>{{user.id}}</td>
+    <td>{{user.name}}</td>
+    <td>{{user.email}}</td>
+    <td>{{user.customer_id}}</td>
+    <td>{{user.backend_updated_at}}</td>
+  </tr>
+</table>
